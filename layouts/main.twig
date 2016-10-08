@@ -5,10 +5,7 @@
 <body>
 		<header><h1>Hello World</h1>
 		<main>
-			{% block content %}
-				<p>This block should be replaced by the index.twig <strong>content</strong> block.</p>
-				{{ dump() }}
-			{% endblock %}
+			{{ content | raw}}
 		</main>
 </body>
 </html>
