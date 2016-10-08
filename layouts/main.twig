@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+</head>
+<body>
+		<header><h1>Hello World</h1>
+		<main id="content" role="main">
+			{% block content %}
+				<p>Block <strong>content</strong> not set</p>
+			{% endblock %}
+		</main>
+		<footer id="footer">
+			Copyright {{ now.year }}. All rights reserved
+		</footer>
+</body>
+</html>
