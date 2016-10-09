@@ -3,7 +3,12 @@
 <head>
 </head>
 <body>
-		<header><h1>Hello World</h1>
+		<header>
+			<h1>Hello World</h1>
+			<p>The current version is {{ constant('Twig_Environment::VERSION') }}</p>
+
+		</header>
+
 		<main>
 			{{ content | raw}}
 		</main>
