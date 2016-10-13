@@ -1,1 +1,5 @@
-I am the homepage.
+{% extends "layouts/main.twig" %}
+
+{{ void(this.beginBlock('block1')) }}
+now, block1 is set
+{{ void(this.endBlock()) }}
